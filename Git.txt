@@ -1,0 +1,26 @@
+
+安装Git：
+	在linux上安装Git：
+		测试：输入$git
+		安装：$sudo apt-get install git  （Debain或Ubuntu Linux系统)
+		老版本系统：$sudo apt-get install git-core
+
+		其他版本：可以直接通过源码安装。先从Git官网下载源码，然后解压，依次输入：./config，make，sudo make install这几个命令安装就好了
+	
+	在window系统下安装：
+		msysgit是Windows版的Git，从https://git-for-windows.github.io下载，然后安装。
+		安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
+		安装完成后，还需要最后一步设置，在命令行输入：
+		$ git config --global user.name "Your Name"
+		$ git config --global user.email "email@example.com"
+		因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址
+创建版本库:
+	1)选择一个合适的地方，创建一个空目录
+	2)通过git init 命令把这个目录变成Git可以管理的仓库
+	 ls -ah 
+	 然后就可以看到了一个.git目录
+
+
+
+
+
